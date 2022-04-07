@@ -1,0 +1,193 @@
+body {
+    background-image: url(spaceImg/infobackground.jpeg);
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-family: 'Bebas Neue',
+        cursive;
+    font-family: 'Orbitron',
+        sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+
+h3 {
+    color: yellowgreen;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+span {
+    color: yellowgreen;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#info-planet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25rem;
+    margin-top: 5rem;
+}
+
+#info {
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    width: 55%;
+    text-align: center;
+    font-weight: lighter;
+    padding: 1rem;
+    border-bottom: 2px solid yellowgreen;
+}
+
+.info-section {
+    margin-left: 25rem;
+    margin-top: 2rem;
+}
+
+.info-up,
+.info-down {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Day-temp,
+.day-temp {
+    margin-left: 3.5rem;
+}
+
+#Circumference,
+.circum {
+    margin-left: 1rem;
+}
+
+#moons,
+#mons {
+    word-break: break-all;
+    margin-left: 12rem;
+}
+
+#Jorden,
+#Jupiter,
+#Mars,
+#Solen,
+#Merkurius,
+#Neptunus,
+#Saturnus,
+#Uranus,
+#Venus {
+    width: 25%;
+    display: none;
+    margin-left: 4rem;
+}
+
+#solen {
+    margin-top: -27rem;
+}
+
+#venus {
+    margin-top: -35rem;
+}
+
+#Merkurius {
+    margin-top: -30rem;
+}
+
+#Jorden {
+    margin-top: -34rem;
+}
+
+#Saturnus {
+    width: 38%;
+    margin-top: -32rem;
+    margin-left: -1rem;
+}
+
+#Uranus {
+    width: 25%;
+    margin-top: -27rem;
+}
+
+#Neptunus {
+    margin-top: -30rem;
+}
+
+#Jupiter {
+    margin-top: -29rem
+}
+
+#Mars {
+    margin-top: -30rem;
+}
+
+img:hover {
+    animation: rotate-planet 35s infinite linear;
+}
+
+@keyframes rotate-planet {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+#santa {
+    width: 20%;
+    margin-top: -40rem;
+    margin-left: -20rem;
+    animation: flying-santa;
+    animation-duration: 30s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes flying-santa {
+    from {
+        transform: translate(5px);
+    }
+
+    to {
+        transform: translate(680px);
+    }
+}
+
+#home-btn {
+    background-color: rgba(153, 205, 50, 0.769);
+    font-family: sans-serif;
+    font-size: 15px;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin-left: 45rem;
+    margin-top: -3rem;
+    cursor: pointer;
+}
+
+#home-btn:hover {
+    background-color: white;
+    color: yellowgreen;
+
+}
+
+.next-btn {
+    background-color: rgba(153, 205, 50, 0.577);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 37rem;
+    cursor: pointer;
+}
